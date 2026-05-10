@@ -1,11 +1,16 @@
-# 后端服务环境配置与运行说明
+# FastAPI 后端项目
 
-## 1. 环境准备
-- 安装 Python 3.9+（需自带 pip）
-- 安装 VS Code（推荐安装 Python 插件）
+## 项目简介
+这是一个基于 FastAPI 的后端服务，提供基础接口和 `/chat` 大模型对话接口。
 
-## 2. 依赖安装
-1.  克隆仓库到本地
-    ```bash
-    git clone [你的仓库地址]
-    cd [仓库根目录]
+---
+
+## 环境配置
+
+### 1. 安装依赖
+```bash
+# 进入项目根目录
+cd C:\Users\windows\Desktop\fastapi-project
+
+# 安装所有依赖
+pip install -r requirements.txt
